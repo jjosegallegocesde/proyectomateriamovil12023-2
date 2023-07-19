@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Home extends AppCompatActivity {
@@ -17,14 +18,22 @@ public class Home extends AppCompatActivity {
     Button botonRestaurantes;
     Button botonTurismo;
 
+    TextView nombreCliente;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        String nombre=getIntent().getStringExtra("nombre");
+
         botonHoteles=findViewById(R.id.botonhoteles);
         botonRestaurantes=findViewById(R.id.botonrestaurantes);
         botonTurismo=findViewById(R.id.botonsitios);
+        nombreCliente=findViewById(R.id.usuario);
+
+        //Uniendo el texto del PUTEXTRA con el TEXTVIEW
+        nombreCliente.setText(nombre);
 
         //detectando eventos
         botonHoteles.setOnClickListener(new View.OnClickListener() {
