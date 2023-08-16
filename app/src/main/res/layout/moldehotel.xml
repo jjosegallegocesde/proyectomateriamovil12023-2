@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Hoteles el descanso del mocho"
+        android:text="Hoteles el descanso"
         app:layout_constraintVertical_bias="0.01"
         app:layout_constraintHorizontal_bias="0.1"
         android:textSize="26dp"
@@ -44,7 +44,7 @@
         android:textSize="26dp"
         />
     <TextView
-        android:id="@+id/contacto"
+        android:id="@+id/contactoListaHotel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/nombreListaHotel"
@@ -58,11 +58,11 @@
         android:textStyle="bold"
         />
     <TextView
-        android:id="@+id/telefonoListaHote"
+        android:id="@+id/telefonoListaHotel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/nombreListaHotel"
-        app:layout_constraintStart_toEndOf="@+id/contacto"
+        app:layout_constraintStart_toEndOf="@+id/contactoListaHotel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.01"
