@@ -30,10 +30,10 @@ public class ListaHoteles extends AppCompatActivity {
     }
 
     public void llenarListaConDatos(){
-        listaHoteles.add(new MoldeHotel("Hotel la riviera","$150000","3225608780",R.drawable.hotelcinco));
-        listaHoteles.add(new MoldeHotel("Hotel la posada","$80000","3225608787",R.drawable.hoteldos));
-        listaHoteles.add(new MoldeHotel("Hotel spa reservado","$180000","3225608778",R.drawable.hoteltres));
-        listaHoteles.add(new MoldeHotel("Hotel la cascada del angel","$60000","3225608741",R.drawable.hotelcuatro));
-        listaHoteles.add(new MoldeHotel("Hotel el mirador","$190000","3225608720",R.drawable.hotelcinco));
+        listaHoteles.add(new MoldeHotel("Hotel la riviera","$150000","3225608780",R.drawable.hotelcinco,"hotel hermoso y agradable",R.drawable.hoteldos));
+        listaHoteles.add(new MoldeHotel("Hotel la posada","$80000","3225608787",R.drawable.hoteldos,"hotel sucio y desagradable, huele a hierba",R.drawable.hotelcinco));
+        //listaHoteles.add(new MoldeHotel("Hotel spa reservado","$180000","3225608778",R.drawable.hoteltres));
+        //listaHoteles.add(new MoldeHotel("Hotel la cascada del angel","$60000","3225608741",R.drawable.hotelcuatro));
+        //listaHoteles.add(new MoldeHotel("Hotel el mirador","$190000","3225608720",R.drawable.hotelcinco));
     }
 }
